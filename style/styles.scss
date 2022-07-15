@@ -1,0 +1,49 @@
+// Importing Google Fnts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+// -----------------
+//      Colors
+// -----------------
+//Primary
+$dark-blue-intro: hsl(217, 28%, 15%);
+$dark-blue-main: hsl(218, 28%, 13%);
+$dark-blue-footer: hsl(216, 53%, 9%);
+$dark-blue-testimonials: hsl(219, 30%, 18%);
+
+// Accent
+$cyan: hsl(176, 68%, 64%);
+$blue: hsl(198, 60%, 50%);
+$light-red: hsl(0, 100%, 63%);
+
+// Neutral
+$white: hsl(0, 0%, 100%);
+
+// ----------------------
+//       Typography
+// ----------------------
+// Body Copy
+// - Font size: 14px
+
+// Headings, Call-to-actions, Header Navigation
+$heading-font:'Raleway',sans-serif;
+// - Weights: 400, 700
+
+// Body
+$body-font: 'Open Sans', sans-serif;
+// - Weights: 400, 700
+
+// ------------------------
+//          Resets
+// ------------------------
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: $body-font;
+  background-color: $dark-blue-main;
+}
